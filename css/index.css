@@ -1,0 +1,106 @@
+@font-face { 	
+	font-family: "geosanslight"; 	
+	src: url('../fonts/GeosansLight.ttf'); 
+}
+
+@font-face { 	
+	font-family: "kenzo"; 	
+	src: url('../fonts/KenzoRegular.otf'); 
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+}
+
+ul {
+	list-style-type: none;
+	padding-top: 10px;
+}
+
+li a {
+	color: #c3d3e0;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+	font-size: 30px;
+	font-family: kenzo;
+}
+
+li a:hover {
+	text-decoration: none;
+	color: #4D4444;
+}
+
+.film-list-area {
+	height: 100%;
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: url(../images/film.jpg) no-repeat center center;
+	background-size: cover;
+	color: #FFFFFF;
+	text-align: center;
+	overflow: hidden;
+}
+
+.film-list-title {
+	position: relative;
+	margin-bottom: 20px;
+	padding-top: 10%;
+	font-family: kenzo;
+}
+
+.film-list-title > h1 {
+	margin: 0;
+	font-size: 6em;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.film-list-area input {
+	height: 50px;
+	width: 100%;
+	border-radius: 10px;
+	color: #201A16;
+	text-align: center;
+	font-size: 30px;
+	opacity: 0.6;
+	font-family: kenzo;
+}
+
+.message {
+	margin-top: 10px;
+	color: #c3d3e0;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+	font-size: 30px;
+	line-height: 100%;
+	font-family: kenzo;
+}
+
+#marax {
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	font-size: 15px;
+	font-family: geosanslight;
+}
+
+#footer {
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+	font-size: 15px;
+	font-family: geosanslight;
+}
+
+#footer a {
+	color: #c3d3e0;
+}
+
+#footer a:hover {
+	color: #4d4444;
+	text-decoration: none;
+}
